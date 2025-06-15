@@ -1,0 +1,34 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #004b3c;
+}
+
+.navbar-brand,
+.nav-link {
+  color: white !important;
+}
+
+.hero {
+  background: url('../img/bank-bg.jpg') center/cover no-repeat;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: #007e5c;
+  border: none;
+}
+
+.card {
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
